@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .feedback-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .feedback-form h2 {
+            margin-top: 0;
+        }
+        .feedback-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .feedback-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .feedback-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .feedback-form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="feedback-form">
+    <h2>Storytelling Contest Feedback</h2>
+    <form>
+        <label for="story">Share Your Story:</label>
+        <textarea id="story" name="story" rows="10" cols="30"></textarea><br/>
+
+        <label for="rating">Rate the Story:</label>
+        <br>
+        <select id="rating" name="rating">
+            <option value="good">Good</option>
+            <option value="excellent">Excellent</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select><br/>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>

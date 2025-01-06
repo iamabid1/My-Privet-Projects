@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Tasks</title>
     <style>
-        #PT1 {
+        .PT {
             text-align: center;
             text-decoration: underline;
             size: 20px;
@@ -39,11 +39,45 @@
         #cmnt {
             padding: 50x 50px 50px 50px;
         }
+        .form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .smb {
+            padding: 10px 75px 10px 75px;
+            margin-top: 10px;
+            background-color: rgb(0, 123, 0);
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
+        #BT {
+            text-align: center;
+            text-decoration: underline;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th, td {
+            border: 1px solid;
+            padding: 7px 12px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .TI {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
     <main>
-        <h1 id="PT1">Practice Task 1</h1>
+        <h1 Class="PT">Practice Task 1</h1>
         <hr>
         <label for="Search your Image">
             Search for your image <input type="text">
@@ -69,7 +103,87 @@
         <br>
         <br>
         <button>Submit</button>
+        <h1 class="PT">Practice Task 2</h1>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div class="form">
+            <main class="main">
+                <hr>
+                <h2>Contest Feedback</h2> 
+                <form >
+                    <textarea name="Stories" id="Stories" rows="10" cols="30"></textarea>
+                </form>
+                <label for="Rating">Rate The Story : </label>
+                <br>
+                <br>
+                <br>
+                <select id="rating" name="rating">
+                    <option value="good">Good</option>
+                    <option value="excellent">Excellent</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select><br/>
+                <button class="smb">
+                    Submit
+                </button>
+                <hr>
+                
+            </main>
 
+
+        </div>
+        <hr>
+        <h1 Class="PT">Practice Task 3</h1>
+        <h2 id="BT">Batminton Tournament</h2>
+        <table>
+            <caption class="TI">Tournament Info</caption>
+            <tr>
+                <th>Round 1</th>
+                <th>Player A</th>
+                <th>Player B</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Match 1</td>
+                    <td>ABID</td>
+                    <td>Muksud</td>
+                </tr>
+                <tr>
+                    <td>Match 2</td>
+                    <td>Muksud</td>
+                    <td>Jishan</td>
+                </tr>
+                <tr>
+                    <th>Round 2</th>
+                    <th>Player B</th>
+                    <th>Player D</th>
+                </tr>
+                <tr>
+                    <td>Match 3</td>
+                    <td>Mominul</td>
+                    <td>Sahan</td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <td>Round 4</td>
+                    <td>Mominul</td>
+                    <td>Noman</td>
+                </tr>
+                <tr>
+                    <th>Final</th>
+                    <th>Winner of Match 3</th>
+                    <th>Winner of Match 4</th>
+                </tr>
+                <tr>
+                    <td>Champion</td>
+                    <td>ABID</td>
+                    <td>Muksud</td>
+                </tr>
+            </tbody>
+            
+        </table>
     </main>
 </body>
 </html>
