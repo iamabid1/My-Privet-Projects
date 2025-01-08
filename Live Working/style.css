@@ -1,0 +1,110 @@
+.banner {
+  background-image: url(images/Banner\ Image.png);
+  border-radius: 16px;
+  height: 600px;
+  color: rgb(0, 255, 13);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%); */
+  background: linear-gradient(
+    180deg,
+    rgb(45, 45, 45),
+    rgb(38, 38, 38),
+    url(images/Banner\ Image.png)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -o-linear-gradient(
+    180deg,
+    rgb(52, 52, 52),
+    rgb(39, 39, 39),
+    url(images/Banner\ Image.png)
+  );
+}
+.t1 {
+  font-weight: 400px;
+  display: flex;
+  justify-content: center;
+  font-family: Merriweather;
+  font-size: 32px;
+}
+.t2 {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 72px;
+  word-spacing: 0%;
+  text-align: center;
+  line-height: 10px;
+}
+.banner-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discount {
+  color: rgb(255, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.deals {
+  color: rgb(255, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.catego {
+  color: rgb(7, 2, 17);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.wlcm {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: ; */
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+.desc {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.join-n {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.banner-3 {
+  /* background-image: url(images/Vectorrr.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(images/Vectorrr.png);
+}
